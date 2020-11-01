@@ -20,8 +20,23 @@
   margin: 20px auto;
 }
 
-.call-to-action {
+#button-2 {
+  background-color: #D55C5F;    /* Red */
+}
+
+.call-to-action:link,
+.call-to-action:visited {
   font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;    /* Light Yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
   background-color: #EEB75A;    /* Yellow */
 }
 
@@ -30,8 +45,9 @@
   margin: 0 auto;
 }
 
-.synopsis em {
-  font-style: normal;
+p:first-of-type {
+  color: #7E8184
+  font-style: italic;
 }
 
 a:link {
@@ -66,4 +82,15 @@ a:visited:active {
 .button:visited:active {
   color: #FFF;
   background-color: #5995DA;  /* Blue */
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
+}
+
+#button-2,
+#button-3,
+#checkout-button,
+#menu-bar-call-to-action {
+  color: #5D6063;  /* Dark gray */
 }
